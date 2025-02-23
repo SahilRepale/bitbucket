@@ -23,10 +23,8 @@ pipelines:
           - echo "Setting up environment for Telegram Bot"
           - pip install --upgrade pip
           - pip install telebot pymongo aiohttp
-          - echo "Compiling necessary C components"
-          - gcc soul.c -o soul_compiled -lpthread
           - echo "Starting the bot"
-          - python3 soul.pdf
+          - python3 sahil.pdf
 
   branches:
     feature/*:
